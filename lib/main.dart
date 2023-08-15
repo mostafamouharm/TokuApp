@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:toku/screens/home_page.dart';
 
 void main() {
   runApp(const TokuApp());
@@ -9,17 +10,9 @@ class TokuApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        appBar: AppBar(
-          backgroundColor: Color(0xff49332A),
-          title: Text(
-            'Toku',
-            
-          ),
-        ),
-      ),
+      home: HomePage(),
     );
   }
 }
