@@ -4,7 +4,7 @@ import 'package:toku/screens/numbers_page.dart';
 import '../components/category_item.dart';
 
 class HomePage extends StatelessWidget {
-  const HomePage({super.key});
+  const HomePage();
 
   @override
   Widget build(BuildContext context) {
@@ -30,6 +30,7 @@ class HomePage extends StatelessWidget {
             color: Color(0xffF99531),
           ),
           Category(
+            
             text: 'Family Members',
             color: Color(0xfff528032),
           ),
